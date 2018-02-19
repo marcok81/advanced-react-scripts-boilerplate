@@ -1,0 +1,29 @@
+{
+  "name": "advanced-react-scripts-boilerplate",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "advanced-react-scripts": "0.3.44-beta.3",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "scripts": {
+    "start": "node node_modules/advanced-react-scripts/scripts/start.js",
+    "build": "node node_modules/advanced-react-scripts/scripts/build.js",
+    "test": "node node_modules/advanced-react-scripts/scripts/test.js --env=jsdom",
+    "eject": "node node_modules/advanced-react-scripts/scripts/eject.js"
+  },
+  "browserslist": {
+    "development": [
+      "last 2 chrome versions",
+      "last 2 firefox versions",
+      "last 2 edge versions"
+    ],
+    "production": [
+      ">1%",
+      "last 4 versions",
+      "Firefox ESR",
+      "not ie < 11"
+    ]
+  }
+}
